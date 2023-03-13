@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Suwit Jawa 2.0 */
+
+body {
+  background-image: url(img/bg.png);
+  font-family: arial;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1024%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(32%2c 32%2c 32%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c515.842C97.295%2c507.437%2c188.336%2c473.666%2c271.332%2c422.202C355.401%2c370.073%2c442.605%2c310.736%2c479.071%2c218.784C514.944%2c128.328%2c475.135%2c29.912%2c465.299%2c-66.9C454.969%2c-168.574%2c487.939%2c-287.59%2c419.88%2c-363.828C351.81%2c-440.079%2c230.299%2c-423.138%2c129.946%2c-442.556C39.725%2c-460.013%2c-46.76%2c-476.103%2c-138.557%2c-471.881C-255.703%2c-466.493%2c-397.544%2c-499.47%2c-478.444%2c-414.574C-558.81%2c-330.238%2c-519.541%2c-190.858%2c-517.345%2c-74.383C-515.473%2c24.917%2c-502.857%2c120.627%2c-466.61%2c213.094C-428.614%2c310.024%2c-390.567%2c415.167%2c-303.229%2c471.834C-215.777%2c528.575%2c-103.86%2c524.814%2c0%2c515.842' fill='%231b1b1b'%3e%3c/path%3e%3cpath d='M1440 1142.661C1553.376 1137.049 1666.708 1122.58 1764.4470000000001 1064.85 1864.502 1005.752 1951.326 921.204 1996.324 814.065 2040.653 708.519 2050.425 585.367 2010.9589999999998 477.908 1974.301 378.096 1851.704 343.116 1791.2350000000001 255.65300000000002 1719.4180000000001 151.776 1734.632-11.024999999999977 1627.123-77.28200000000004 1518.846-144.01199999999994 1361.538-142.65499999999997 1253.288-75.88199999999995 1146.171-9.807999999999993 1160.272 151.985 1088.189 255.154 1027.013 342.712 910.141 380.02 866.604 477.558 816.066 590.78 784.499 723.452 827.203 839.855 870.726 958.491 980.94 1042.045 1094.231 1098.027 1200.5720000000001 1150.574 1321.53 1148.5259999999998 1440 1142.661' fill='%23252525'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1024'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.area-komputer {
+  width: 560px;
+  height: 250px;
+  margin: 5px auto;
+  /* From https://css.glass */
+  background: rgba(255, 79, 79, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 79, 79, 0.26);
+  position: relative;
+  padding-top: 40px;
+  box-sizing: border-box;
+  border-radius: 40px 40px 0 0;
+}
+
+.area-player {
+  width: 560px;
+  height: 250px;
+  margin: 5px auto;
+  /* From https://css.glass */
+  background: rgba(79, 255, 107, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(79, 255, 107, 0.26);
+  position: relative;
+  border-radius: 0 0 40px 40px;
+}
+
+.info {
+  width: 150px;
+  height: 60px;
+
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  top: 50%;
+  margin-top: -30px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 1;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  padding-top: 80px;
+  padding-left: 25px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.gajah,
+.orang,
+.semut {
+  transition: 0.3s;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+.gajah:hover,
+.semut:hover,
+.orang:hover,
+.active {
+  box-shadow: 0 0 10px 5px limegreen;
+}
+
+.gajah:active,
+.semut:active,
+.orang:active {
+  top: 2px;
+}
